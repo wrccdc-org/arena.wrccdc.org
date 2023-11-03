@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CCDC Arena</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-img2 overlay1 size1 flex-w flex-c-m p-t-55 p-b-55 p-l-15 p-r-15">
+        <div class="wsize1">
+            <p class="txt-center p-b-23 animated pulse slower">
+                <span data-tilt><img class="js-tilt" src="images/WRCCDC.png"></span>
+            </p>
+
+            <h3 class="l1-txt1 txt-center p-b-22 animated fadeIn">CCDC Arena</h3>
+
+            <p class="txt-center l1-txt4 p-b-50 animated fadeInUp">
+                <a href="https://tickets.wrccdc.org">Ticket Manager</a> |
+                <a href="https://competitions.wrccdc.org">VMware</a> |
+                <a href="https://arena.wrccdc.org/scores/">Scores</a> |
+                <a href="https://twitter.com/wrccdc">Twitter</a>
+            </p>
+
+            <p class="cl0 txt-center l1-txt3 p-b-10 animated fadeIn delay-1s" id="nextEvent"></p> <!-- WRCCDC COMP STARTS ON DATE -->
+
+            <!-- DAYS -->
+            <div class="flex-w flex-sa-m cd100 bor1 p-t-42 p-b-22 p-l-50 p-r-50 respon1 animated fadeIn">
+                <div class="flex-col-c-m wsize2 m-b-20 animated fadeIn delay-2s">
+                    <span class="l1-txt2 p-b-4 days" id="days">&bull;</span>
+                    <span class="m2-txt2"><i>Days</i></span>
+                </div>
+
+                <span class="l1-txt2 p-b-22">:</span>
+                <!-- HOURS -->
+
+                <div class="flex-col-c-m wsize2 m-b-20 animated fadeIn delay-2s">
+                    <span class="l1-txt2 p-b-4 hours" id="hours">&bull;</span>
+                    <span class="m2-txt2"><i>Hours</i></span>
+                </div>
+                <!-- MINUTES -->
+
+                <span class="l1-txt2 p-b-22 respon2">:</span>
+
+                <div class="flex-col-c-m wsize2 m-b-20 animated fadeIn delay-2s">
+                    <span class="l1-txt2 p-b-4 minutes" id="minutes">&bull;</span>
+                    <span class="m2-txt2"><i>Minutes</i></span>
+                </div>
+                <!-- SECONDS -->
+
+                <span class="l1-txt2 p-b-22">:</span>
+
+                <div class="flex-col-c-m wsize2 m-b-20 animated fadeIn delay-2s">
+                    <span class="l1-txt2 p-b-4 seconds" id="seconds">&bull;</span>
+                    <span class="m2-txt2"><i>Seconds</i></span>
+                </div>
+            </div>
+            <br>
+            <div id="showData" class="cl0 l1-txt3 flex-w flex-sa-m txt-center animated fadeIn delay-3s"></div>
+            <br>
+
+        </div>
+    </div>
+
+    <!-- =============================================================================================== -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/countdowntime.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script>
+        $('.js-tilt').tilt({
+            glare: true,
+            maxTilt: 25,
+            speed: 800,
+            maxGlare: .8,
+            scale: 1.2,
+        })
+    </script>
+    <script src="js/main.js"></script>
+    <!-- =============================================================================================== -->
+    <!-- Made by @succurity_ with <3 -->
+</body>
+
+</html>
