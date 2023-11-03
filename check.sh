@@ -2,6 +2,7 @@
 
 # Pull from Git
 if [ ! -z "$1" ]; then
+	cd $1
 	git stash || echo "no stash"
 	git reset --hard HEAD || echo "no reset"
 	git pull origin main
