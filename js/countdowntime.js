@@ -2,6 +2,7 @@ $(document).ready(function () {
     $.getJSON("competition.json", function (eventData) {
         console.log = function() {};
         var data = eventData[0]; // let us assume list
+        var currentDate = new Date();
         for (var i = 0; i < eventData.length; i++) {
             var eventStartTime = new Date(eventData[i].startTime);
             if (eventStartTime > currentDate) {
@@ -29,7 +30,6 @@ $(document).ready(function () {
         var dateStr2 = items[3];
         var date = new Date(dateStr);
         var date2 = new Date(dateStr2);
-        var currentDate = new Date();
 
         // Check if the competition is in the past, present, or future
         var eventType="competition"
