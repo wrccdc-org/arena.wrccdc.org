@@ -36,7 +36,7 @@ $(document).ready(function () {
         if(items.length>2){
             eventType=items[1];
         }
-	eventType = eventType.toUpperCase(); // caps lock on
+        eventType = eventType.toUpperCase(); // caps lock on
         if (currentDate < date) {
             // Competition is in the future, set up a countdown
             var countDownDate = date.getTime();
