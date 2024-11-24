@@ -1,26 +1,32 @@
 [
   {
-    "next_event_info": "Please check out our twitter page!",
+    "next_event_info": "Please check out our BlueSky page!",
     "next_event_title": "WRCCDC Invitationals 1",
-    "startTime": "2023-11-04T17:00:00Z",
-    "endTime": "2023-11-04T24:00:00Z"
+    "startTime": "2024-10-26T16:00:00Z",
+    "endTime": "2024-10-26T23:00:00Z"
   },
   {
-    "next_event_info": "Hope to see you at WRCCDC Qualifiers. Check our Twitter/X/Mastodon for Hints!",
-    "next_event_title": "WRCCDC Invitationals 2 🔥",
-    "startTime": "2023-12-02T17:00:00Z",
-    "endTime": "2023-12-02T24:00:00Z"
+    "next_event_info": "Hope to see you at WRCCDC Qualifiers. Check our BlueSky/Discord for hints!",
+    "next_event_title": "WRCCDC Invitationals 2",
+    "startTime": "2024-11-23T16:00:00Z",
+    "endTime": "2024-11-23T23:00:00Z"
   },
   {
-    "next_event_info": "Glad to have you at WRCCDC Qualifiers 2024. Buckle up!",
+    "next_event_info": "Hope to see you at WRCCDC Qualifiers 2025. https://bsky.app/profile/wrccdc.org",
+    "next_event_title": "WRCCDC Invitationals 3",
+    "startTime": "2025-01-25T17:00:00Z",
+    "endTime": "2025-01-26T00:00:00Z"
+  },
+  {
+    "next_event_info": "Welcome to WRCCDC Qualifiers 2025. Buckle up!",
     "next_event_title": "WRCCDC Qualifiers",
-    "startTime": "2024-02-17T17:00:00Z",
-    "endTime": "2024-02-17T24:00:00Z"
+    "startTime": "2025-02-08T17:00:00Z",
+    "endTime": "2025-02-09T00:00:00Z"
   },
   {
-    "next_event_info": "Good luck to all the students in person competing for the regional title!",
+    "next_event_info": "Good luck to all the students competing in person for the regional title!",
     "next_event_title": "WRCCDC Regionals",
-    "startTime": "2024-04-05T17:00:00Z",
-    "endTime": "2024-04-07T21:00:00Z"
+    "startTime": "2025-03-28T16:00:00Z",
+    "endTime": "2025-03-30T20:00:00Z"
   }
 ]
